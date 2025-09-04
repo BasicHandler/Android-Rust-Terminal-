@@ -1,6 +1,6 @@
 # Android-Rust-Terminal-
 
-# Android-Rust-Terminal-android 
+
 
 Localhost Text Browser in Rust
 
