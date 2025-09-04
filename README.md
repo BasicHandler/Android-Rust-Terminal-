@@ -1,17 +1,20 @@
-# Android-Rust-Terminal-
+# Android-Rust-Terminal
 
 
 
-Localhost Text Browser in Rust
+### Localhost Text Browser in Rust with secure sandboxed terminal 
 
-#Core Architecture
+
+#Core Architecture.
+
 Pure Rust Implementation: No JavaScript dependencies, minimal attack surface
 Localhost-Only: Strict localhost/127.0.0.1 connection filtering
 Text-Based Rendering: HTML to plain text conversion with navigation
 Security-First: Connection blocking, request filtering, no telemetry
 Container-Ready: Minimal dependencies, cross-compilation support for Android and Kyber Kem encapsulation for secure transport.
 
-#Key Components
+#Key Components.
+
 1. Core Browser Engine (src/main.rs, src/browser.rs)
 HTTP client with localhost-only restriction
 HTML parser and text renderer
@@ -54,7 +57,7 @@ Static Linking: Self-contained binary
 Android-Ready: Cross-compilation configuration
 Resource Efficient: Low memory footprint.
 
-#Structure 
+#Structure.
 
 Cargo.toml - Project configuration and dependencies
 src/main.rs - Entry point and CLI interface
