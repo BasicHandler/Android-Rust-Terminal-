@@ -2,7 +2,7 @@
 
 
 
-### Localhost Text Browser in Rust to serve as launcher for webapps in sandboxed enviroments through it'embedded terminal. Part of the 'Floating Dev/No nstall &privilege control' project 
+### Localhost Text Browser in Rust to serve as launcher for webapps in sandboxed enviroments through it's embedded terminal. Part of the 'Floating Dev/No nstall &privilege control' project 
 
 # CURRENTLY UNDER TEST 
 
