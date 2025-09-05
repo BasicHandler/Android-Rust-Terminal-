@@ -1,9 +1,10 @@
-# Android-Rust-Terminal
+# RustShell 
 
 
 
-### Localhost Text Browser in Rust with secure sandboxed terminal 
+### Localhost Text Browser to serve as launcher of sandboxed webapps in Rust with embedded terminal for sandboxed runs and container protection of user space and binaries. Part of the 'Floating Dev' proje
 
+# CURRENTLY UNDER TEST 
 
 #Core Architecture.
 
@@ -11,8 +12,8 @@ Pure Rust Implementation: No JavaScript dependencies, minimal attack surface
 Localhost-Only: Strict localhost/127.0.0.1 connection filtering
 Text-Based Rendering: HTML to plain text conversion with navigation
 Security-First: Connection blocking, request filtering, no telemetry
-Container-Ready: Minimal dependencies, cross-compilation support for Android and Kyber Kem encapsulation for secure transport.
-
+Container-Ready: Minimal dependencies, cross-compilation support for Android and Kyber Kem encapsulation for secure transport and no installation of developed projectbs.
+tools to compar
 #Key Components.
 
 1. Core Browser Engine (src/main.rs, src/browser.rs)
